@@ -3228,6 +3228,12 @@ if (link != "" && tag != "") {
   pages_by_tag[ix] = new Page("Appreciation", "Appreciation", "2018-09-21", "The Village Green Preservation Society", "Herb Bowie", "appreciation/the-village-green-preservation-society.html", "humanism, society", "society");
 }
 ix++;
+link = "blog/hbowie/calling-for-a-us-sustainability-initiative.html";
+tag = "society";
+if (link != "" && tag != "") {
+  pages_by_tag[ix] = new Page("Blog", "Blog Post", "2018-12-03", "Calling for a US Sustainability Initiative", "Herb Bowie", "blog/hbowie/calling-for-a-us-sustainability-initiative.html", "society, sustainability", "society");
+}
+ix++;
 link = "blog/hbowie/our-societal-disconnect.html";
 tag = "society";
 if (link != "" && tag != "") {
@@ -3442,6 +3448,12 @@ link = "quotes/cockpits-with-instruments-controlled-by-gremlins.html";
 tag = "stories";
 if (link != "" && tag != "") {
   pages_by_tag[ix] = new Page("Quotes", "Quotation", "2006-12-19 16:27:23", "Cockpits with Instruments Controlled by Gremlins", "Robert D. Austin", "quotes/cockpits-with-instruments-controlled-by-gremlins.html", "humanism, liberty, stories", "stories");
+}
+ix++;
+link = "blog/hbowie/calling-for-a-us-sustainability-initiative.html";
+tag = "sustainability";
+if (link != "" && tag != "") {
+  pages_by_tag[ix] = new Page("Blog", "Blog Post", "2018-12-03", "Calling for a US Sustainability Initiative", "Herb Bowie", "blog/hbowie/calling-for-a-us-sustainability-initiative.html", "society, sustainability", "sustainability");
 }
 ix++;
 link = "blog/hbowie/what-we-need-after-the-election.html";

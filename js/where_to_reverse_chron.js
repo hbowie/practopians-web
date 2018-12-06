@@ -1,5 +1,15 @@
 
 ix = 0;
+link = "perspective/vol-1-issue-18-the-importance-of-mission.html";
+if (link != "") {
+  pages_by_descending_date[ix] = new Page("Perspective", "Perspective", "2018-12-04", "Vol 1 Issue 18 - The Importance of Mission", "", "perspective/vol-1-issue-18-the-importance-of-mission.html", "", "");
+}
+ix++;
+link = "blog/hbowie/calling-for-a-us-sustainability-initiative.html";
+if (link != "") {
+  pages_by_descending_date[ix] = new Page("Blog", "Blog Post", "2018-12-03", "Calling for a US Sustainability Initiative", "Herb Bowie", "blog/hbowie/calling-for-a-us-sustainability-initiative.html", "society, sustainability", "");
+}
+ix++;
 link = "perspective/vol-1-issue-17-a-broadcast-consciousness.html";
 if (link != "") {
   pages_by_descending_date[ix] = new Page("Perspective", "Perspective", "2018-11-27", "Vol 1 Issue 17 - A Broadcast Consciousness", "", "perspective/vol-1-issue-17-a-broadcast-consciousness.html", "", "");

@@ -100,6 +100,11 @@ if (title != "") {
   content_logical[ix] = new Page("Blog", "Blog Post", "", "Index by Title", "", "blog/index-by-title.html", "", "");
 }
 ix++;
+title = "Calling for a US Sustainability Initiative"
+if (title != "") {
+  content_logical[ix] = new Page("Blog", "Blog Post", "2018-12-03", "Calling for a US Sustainability Initiative", "", "blog/hbowie/calling-for-a-us-sustainability-initiative.html", "society, sustainability", "");
+}
+ix++;
 title = "A Broadcast Consciousness"
 if (title != "") {
   content_logical[ix] = new Page("Blog", "Blog Post", "2018-11-19", "A Broadcast Consciousness", "", "blog/hbowie/a-broadcast-consciousness.html", "cultural evolution, integral", "");
