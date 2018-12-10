@@ -96,12 +96,12 @@ Feel free to reference the following links for additional information.
 * [Practopians.org/creed/][7] -- A list of all published versions of the Creed. 
 * [github.com/hbowie/practopians][4] -- GitHub project for the Practopians, containing source and change history for all of the content at Practopians.org 
 
-[1]: https://www.practopians.org/
-[2]: https://www.practopians.org/creed/practopians-creed.md
-[3]: https://www.practopians.org/creed/practopians-creed.html
+[1]: http://www.practopians.org/
+[2]: http://www.practopians.org/creed/practopians-creed.md
+[3]: http://www.practopians.org/creed/practopians-creed.html
 [4]: https://github.com/hbowie/practopians/
 [5]: http://www.herbbowie.com
 [6]: http://creativecommons.org/licenses/by-sa/4.0/
-[7]: https://www.practopians.org/creed/index.html
+[7]: http://www.practopians.org/creed/index.html
 [8]: mailto:feedback@practopians.org
 

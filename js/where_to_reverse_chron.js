@@ -1,5 +1,20 @@
 
 ix = 0;
+link = "basics/the-value-of-individuals.html";
+if (link != "") {
+  pages_by_descending_date[ix] = new Page("Basics", "Basic Info", "2018-12-10", "The Value of Individuals", "Herb Bowie", "basics/the-value-of-individuals.html", "individuals", "");
+}
+ix++;
+link = "quotes/the-welfare-of-the-whole-human-race.html";
+if (link != "") {
+  pages_by_descending_date[ix] = new Page("Quotes", "Quotation", "2018-12-06 18:06:16", "The welfare of the whole human race", "Arnold J. Toynbee", "quotes/the-welfare-of-the-whole-human-race.html", "mission, society", "");
+}
+ix++;
+link = "quotes/its-the-rich-class-thats-winning.html";
+if (link != "") {
+  pages_by_descending_date[ix] = new Page("Quotes", "Quotation", "2018-12-04 12:15:43", "It's the rich class that's winning", "Warren Buffett", "quotes/its-the-rich-class-thats-winning.html", "society, value creation", "");
+}
+ix++;
 link = "perspective/vol-1-issue-18-the-importance-of-mission.html";
 if (link != "") {
   pages_by_descending_date[ix] = new Page("Perspective", "Perspective", "2018-12-04", "Vol 1 Issue 18 - The Importance of Mission", "", "perspective/vol-1-issue-18-the-importance-of-mission.html", "", "");
@@ -1105,6 +1120,11 @@ if (link != "") {
   pages_by_descending_date[ix] = new Page("Quotes", "Quotation", "2016-11-05 10:06:49", "No single natural way of life for Sapiens", "Yuval Noah Harari", "quotes/no-single-natural-way-of-life-for-sapiens.html", "cultural evolution", "");
 }
 ix++;
+link = "news/a-staggering-number-of-the-worlds-children-are-breathing-toxic-air.html";
+if (link != "") {
+  pages_by_descending_date[ix] = new Page("News", "News Item", "2016-11-04", "A staggering number of the world's children are breathing toxic air", "", "news/a-staggering-number-of-the-worlds-children-are-breathing-toxic-air.html", "sustainability", "");
+}
+ix++;
 link = "blog/hbowie/what-we-need-after-the-election.html";
 if (link != "") {
   pages_by_descending_date[ix] = new Page("Blog", "Blog Post", "2016-11-03", "What We Need After the Election", "Herb Bowie", "blog/hbowie/what-we-need-after-the-election.html", "education, society, sustainability", "");
@@ -2183,6 +2203,16 @@ ix++;
 link = "quotes/unarmed-truth-and-unconditional-love.html";
 if (link != "") {
   pages_by_descending_date[ix] = new Page("Quotes", "Quotation", "2006-11-30 14:29:31", "Unarmed Truth and Unconditional Love", "Martin Luther King Jr.", "quotes/unarmed-truth-and-unconditional-love.html", "love, written word", "");
+}
+ix++;
+link = "";
+if (link != "") {
+  pages_by_descending_date[ix] = new Page("", "", "", "", "", "", "", "");
+}
+ix++;
+link = "";
+if (link != "") {
+  pages_by_descending_date[ix] = new Page("", "", "", "", "", "", "", "");
 }
 ix++;
 link = "";

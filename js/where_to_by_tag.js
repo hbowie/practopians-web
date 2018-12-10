@@ -2130,6 +2130,12 @@ if (link != "" && tag != "") {
   pages_by_tag[ix] = new Page("Appreciation", "Appreciation", "2018-10-13", "Fruitcakes", "Herb Bowie", "appreciation/fruitcakes.html", "diversity, humanism, imperfection, individuals, religion", "individuals");
 }
 ix++;
+link = "basics/the-value-of-individuals.html";
+tag = "individuals";
+if (link != "" && tag != "") {
+  pages_by_tag[ix] = new Page("Basics", "Basic Info", "2018-12-10", "The Value of Individuals", "Herb Bowie", "basics/the-value-of-individuals.html", "individuals", "individuals");
+}
+ix++;
 link = "blog/hbowie/my-advice-to-young-people-of-all-ages.html";
 tag = "individuals";
 if (link != "" && tag != "") {
@@ -2674,6 +2680,12 @@ link = "basics/the-importance-of-mission.html";
 tag = "mission";
 if (link != "" && tag != "") {
   pages_by_tag[ix] = new Page("Basics", "Basic Info", "2018-11-26", "The Importance of Mission", "Herb Bowie", "basics/the-importance-of-mission.html", "mission", "mission");
+}
+ix++;
+link = "quotes/the-welfare-of-the-whole-human-race.html";
+tag = "mission";
+if (link != "" && tag != "") {
+  pages_by_tag[ix] = new Page("Quotes", "Quotation", "2018-12-06 18:06:16", "The welfare of the whole human race", "Arnold J. Toynbee", "quotes/the-welfare-of-the-whole-human-race.html", "mission, society", "mission");
 }
 ix++;
 link = "quotes/man-must-believe-in-an-open-future.html";
@@ -3264,6 +3276,18 @@ if (link != "" && tag != "") {
   pages_by_tag[ix] = new Page("News", "News Item", "2015-12-08", "How ISIS Makes Radicals", "", "news/how-isis-makes-radicals.html", "imperfection, individuals, society", "society");
 }
 ix++;
+link = "quotes/the-welfare-of-the-whole-human-race.html";
+tag = "society";
+if (link != "" && tag != "") {
+  pages_by_tag[ix] = new Page("Quotes", "Quotation", "2018-12-06 18:06:16", "The welfare of the whole human race", "Arnold J. Toynbee", "quotes/the-welfare-of-the-whole-human-race.html", "mission, society", "society");
+}
+ix++;
+link = "quotes/its-the-rich-class-thats-winning.html";
+tag = "society";
+if (link != "" && tag != "") {
+  pages_by_tag[ix] = new Page("Quotes", "Quotation", "2018-12-04 12:15:43", "It's the rich class that's winning", "Warren Buffett", "quotes/its-the-rich-class-thats-winning.html", "society, value creation", "society");
+}
+ix++;
 link = "quotes/public-morality.html";
 tag = "society";
 if (link != "" && tag != "") {
@@ -3522,6 +3546,12 @@ if (link != "" && tag != "") {
   pages_by_tag[ix] = new Page("News", "News Item", "2017-01-18", "Earth Sets a Temperature Record for the Third Straight Year", "", "news/earth-sets-a-temperature-record-for-the-third-straight-year.html", "sustainability", "sustainability");
 }
 ix++;
+link = "news/a-staggering-number-of-the-worlds-children-are-breathing-toxic-air.html";
+tag = "sustainability";
+if (link != "" && tag != "") {
+  pages_by_tag[ix] = new Page("News", "News Item", "2016-11-04", "A staggering number of the world's children are breathing toxic air", "", "news/a-staggering-number-of-the-worlds-children-are-breathing-toxic-air.html", "sustainability", "sustainability");
+}
+ix++;
 link = "quotes/economic-growth-will-not-save-the-global-ecosystem.html";
 tag = "sustainability";
 if (link != "" && tag != "") {
@@ -3634,6 +3664,12 @@ link = "blog/hbowie/a-traditional-remedy-for-the-facebook-problem-competition.ht
 tag = "value creation";
 if (link != "" && tag != "") {
   pages_by_tag[ix] = new Page("Blog", "Blog Post", "2018-04-05", "A Traditional Remedy for the Facebook Problem: Competition", "Herb Bowie", "blog/hbowie/a-traditional-remedy-for-the-facebook-problem-competition.html", "cultural evolution, democracy, value creation", "value creation");
+}
+ix++;
+link = "quotes/its-the-rich-class-thats-winning.html";
+tag = "value creation";
+if (link != "" && tag != "") {
+  pages_by_tag[ix] = new Page("Quotes", "Quotation", "2018-12-04 12:15:43", "It's the rich class that's winning", "Warren Buffett", "quotes/its-the-rich-class-thats-winning.html", "society, value creation", "value creation");
 }
 ix++;
 link = "quotes/the-yen-to-work-drops-in-flat-economies.html";
