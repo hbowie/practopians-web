@@ -1,5 +1,10 @@
 
 ix = 0;
+link = "perspective/vol-1-issue-19-calling-for-a-us-sustainability-initiative.html";
+if (link != "") {
+  pages_by_descending_date[ix] = new Page("Perspective", "Perspective", "2018-12-11", "Vol 1 Issue 19 - Calling for a US Sustainability Initiative", "", "perspective/vol-1-issue-19-calling-for-a-us-sustainability-initiative.html", "", "");
+}
+ix++;
 link = "basics/the-value-of-individuals.html";
 if (link != "") {
   pages_by_descending_date[ix] = new Page("Basics", "Basic Info", "2018-12-10", "The Value of Individuals", "Herb Bowie", "basics/the-value-of-individuals.html", "individuals", "");
