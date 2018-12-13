@@ -430,9 +430,12 @@ img {
   margin-right: auto
 }
 
-.pub-date {
-	color: #8E9CB4;
+.pub-date
+{
 	text-align: right;
+	font-style: italic;
+	font-weight: normal;
+	color: #929292;
 }
 
 .blog-by-and-date
