@@ -420,6 +420,12 @@ if (link != "" && tag != "") {
   pages_by_tag[ix] = new Page("Quotes", "Quotation", "2006-11-30 14:29:32", "Freedom of Expression in Business", "Tom Peters and Robert H. Waterman Jr.", "quotes/freedom-of-expression-in-business.html", "connection, liberty", "connection");
 }
 ix++;
+link = "blog/hbowie/have-we-passed-the-point-of-maximum-useful-tech.html";
+tag = "critical thinking";
+if (link != "" && tag != "") {
+  pages_by_tag[ix] = new Page("Blog", "Blog Post", "2018-12-17", "Have We Passed The Point of Maximum Useful Tech?", "Herb Bowie", "blog/hbowie/have-we-passed-the-point-of-maximum-useful-tech.html", "critical thinking, cultural evolution, society, tools", "critical thinking");
+}
+ix++;
 link = "blog/hbowie/religious-freedom.html";
 tag = "critical thinking";
 if (link != "" && tag != "") {
@@ -814,6 +820,12 @@ link = "basics/evolution-and-its-implications.html";
 tag = "cultural evolution";
 if (link != "" && tag != "") {
   pages_by_tag[ix] = new Page("Basics", "Basic Info", "2018-05-22", "Evolution and Its Implications", "Herb Bowie", "basics/evolution-and-its-implications.html", "cultural evolution, evolution", "cultural evolution");
+}
+ix++;
+link = "blog/hbowie/have-we-passed-the-point-of-maximum-useful-tech.html";
+tag = "cultural evolution";
+if (link != "" && tag != "") {
+  pages_by_tag[ix] = new Page("Blog", "Blog Post", "2018-12-17", "Have We Passed The Point of Maximum Useful Tech?", "Herb Bowie", "blog/hbowie/have-we-passed-the-point-of-maximum-useful-tech.html", "critical thinking, cultural evolution, society, tools", "cultural evolution");
 }
 ix++;
 link = "blog/hbowie/a-broadcast-consciousness.html";
@@ -3240,6 +3252,12 @@ if (link != "" && tag != "") {
   pages_by_tag[ix] = new Page("Appreciation", "Appreciation", "2018-09-21", "The Village Green Preservation Society", "Herb Bowie", "appreciation/the-village-green-preservation-society.html", "humanism, society", "society");
 }
 ix++;
+link = "blog/hbowie/have-we-passed-the-point-of-maximum-useful-tech.html";
+tag = "society";
+if (link != "" && tag != "") {
+  pages_by_tag[ix] = new Page("Blog", "Blog Post", "2018-12-17", "Have We Passed The Point of Maximum Useful Tech?", "Herb Bowie", "blog/hbowie/have-we-passed-the-point-of-maximum-useful-tech.html", "critical thinking, cultural evolution, society, tools", "society");
+}
+ix++;
 link = "blog/hbowie/calling-for-a-us-sustainability-initiative.html";
 tag = "society";
 if (link != "" && tag != "") {
@@ -3646,6 +3664,12 @@ link = "quotes/learning-from-experience.html";
 tag = "systemic";
 if (link != "" && tag != "") {
   pages_by_tag[ix] = new Page("Quotes", "Quotation", "2006-11-30 14:29:32", "Learning from Experience", "Peter Senge", "quotes/learning-from-experience.html", "critical thinking, education, systemic", "systemic");
+}
+ix++;
+link = "blog/hbowie/have-we-passed-the-point-of-maximum-useful-tech.html";
+tag = "tools";
+if (link != "" && tag != "") {
+  pages_by_tag[ix] = new Page("Blog", "Blog Post", "2018-12-17", "Have We Passed The Point of Maximum Useful Tech?", "Herb Bowie", "blog/hbowie/have-we-passed-the-point-of-maximum-useful-tech.html", "critical thinking, cultural evolution, society, tools", "tools");
 }
 ix++;
 link = "quotes/a-bicycle-for-our-minds.html";

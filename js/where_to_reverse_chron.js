@@ -1,5 +1,15 @@
 
 ix = 0;
+link = "perspective/vol-1-issue-20-a-christmas-wish-for-all.html";
+if (link != "") {
+  pages_by_descending_date[ix] = new Page("Perspective", "Perspective", "2018-12-18", "Vol 1 Issue 20 - A Christmas Wish For All", "", "perspective/vol-1-issue-20-a-christmas-wish-for-all.html", "", "");
+}
+ix++;
+link = "blog/hbowie/have-we-passed-the-point-of-maximum-useful-tech.html";
+if (link != "") {
+  pages_by_descending_date[ix] = new Page("Blog", "Blog Post", "2018-12-17", "Have We Passed The Point of Maximum Useful Tech?", "Herb Bowie", "blog/hbowie/have-we-passed-the-point-of-maximum-useful-tech.html", "critical thinking, cultural evolution, society, tools", "");
+}
+ix++;
 link = "perspective/vol-1-issue-19-calling-for-a-us-sustainability-initiative.html";
 if (link != "") {
   pages_by_descending_date[ix] = new Page("Perspective", "Perspective", "2018-12-11", "Vol 1 Issue 19 - Calling for a US Sustainability Initiative", "", "perspective/vol-1-issue-19-calling-for-a-us-sustainability-initiative.html", "", "");

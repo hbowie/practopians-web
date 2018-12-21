@@ -100,6 +100,11 @@ if (title != "") {
   content_logical[ix] = new Page("Blog", "Blog Post", "", "Index by Title", "", "blog/index-by-title.html", "", "");
 }
 ix++;
+title = "Have We Passed The Point of Maximum Useful Tech?"
+if (title != "") {
+  content_logical[ix] = new Page("Blog", "Blog Post", "2018-12-17", "Have We Passed The Point of Maximum Useful Tech?", "", "blog/hbowie/have-we-passed-the-point-of-maximum-useful-tech.html", "critical thinking, cultural evolution, society, tools", "");
+}
+ix++;
 title = "Calling for a US Sustainability Initiative"
 if (title != "") {
   content_logical[ix] = new Page("Blog", "Blog Post", "2018-12-03", "Calling for a US Sustainability Initiative", "", "blog/hbowie/calling-for-a-us-sustainability-initiative.html", "society, sustainability", "");
