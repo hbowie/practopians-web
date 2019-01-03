@@ -1,5 +1,15 @@
 
 ix = 0;
+link = "quotes/the-economy-is-too-important-to-leave-to-the-economists.html";
+if (link != "") {
+  pages_by_descending_date[ix] = new Page("Quotes", "Quotation", "2018-12-28 12:05:34", "The economy is too important to leave to the economists", "Yanis Varoufakis", "quotes/the-economy-is-too-important-to-leave-to-the-economists.html", "society", "");
+}
+ix++;
+link = "quotes/capitalism-as-a-market-society.html";
+if (link != "") {
+  pages_by_descending_date[ix] = new Page("Quotes", "Quotation", "2018-12-28 11:18:17", "Capitalism as a Market Society", "Yanis Varoufakis", "quotes/capitalism-as-a-market-society.html", "critical thinking, equality, society, systems thinking", "");
+}
+ix++;
 link = "perspective/vol-1-issue-20-a-christmas-wish-for-all.html";
 if (link != "") {
   pages_by_descending_date[ix] = new Page("Perspective", "Perspective", "2018-12-18", "Vol 1 Issue 20 - A Christmas Wish For All", "", "perspective/vol-1-issue-20-a-christmas-wish-for-all.html", "", "");
@@ -8,6 +18,16 @@ ix++;
 link = "blog/hbowie/have-we-passed-the-point-of-maximum-useful-tech.html";
 if (link != "") {
   pages_by_descending_date[ix] = new Page("Blog", "Blog Post", "2018-12-17", "Have We Passed The Point of Maximum Useful Tech?", "Herb Bowie", "blog/hbowie/have-we-passed-the-point-of-maximum-useful-tech.html", "critical thinking, cultural evolution, society, tools", "");
+}
+ix++;
+link = "quotes/television-mesmerizes-people.html";
+if (link != "") {
+  pages_by_descending_date[ix] = new Page("Quotes", "Quotation", "2018-12-14 12:55:59", "Television mesmerizes people", "Eric Braverman", "quotes/television-mesmerizes-people.html", "written word", "");
+}
+ix++;
+link = "quotes/amusing-ourselves-to-death.html";
+if (link != "") {
+  pages_by_descending_date[ix] = new Page("Quotes", "Quotation", "2018-12-14 12:48:16", "Amusing ourselves to death", "Neil Postman", "quotes/amusing-ourselves-to-death.html", "written word", "");
 }
 ix++;
 link = "perspective/vol-1-issue-19-calling-for-a-us-sustainability-initiative.html";
@@ -1378,6 +1398,11 @@ ix++;
 link = "quotes/seeing-the-bigger-picture-from-multiple-angles.html";
 if (link != "") {
   pages_by_descending_date[ix] = new Page("Quotes", "Quotation", "2012-10-22 05:30:34", "Seeing the Bigger Picture from Multiple Angles", "Jeff Bezos and Jason Fried", "quotes/seeing-the-bigger-picture-from-multiple-angles.html", "critical thinking, diversity, integral", "");
+}
+ix++;
+link = "quotes/stakeholder-capitalism.html";
+if (link != "") {
+  pages_by_descending_date[ix] = new Page("Quotes", "Quotation", "2012-09-03 11:43:18", "Stakeholder Capitalism", "Frank W. Abrams", "quotes/stakeholder-capitalism.html", "governance", "");
 }
 ix++;
 link = "blog/hbowie/religious-freedom.html";

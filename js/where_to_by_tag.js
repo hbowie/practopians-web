@@ -468,6 +468,12 @@ if (link != "" && tag != "") {
   pages_by_tag[ix] = new Page("News", "News Item", "2016-11-25", "Does Decision-Making Matter?", "", "news/does-decision-making-matter.html", "critical thinking, love, wonder", "critical thinking");
 }
 ix++;
+link = "quotes/capitalism-as-a-market-society.html";
+tag = "critical thinking";
+if (link != "" && tag != "") {
+  pages_by_tag[ix] = new Page("Quotes", "Quotation", "2018-12-28 11:18:17", "Capitalism as a Market Society", "Yanis Varoufakis", "quotes/capitalism-as-a-market-society.html", "critical thinking, equality, society, systems thinking", "critical thinking");
+}
+ix++;
 link = "quotes/everyone-is-entitled-to-his-own-opinion-but-not-his-own-facts.html";
 tag = "critical thinking";
 if (link != "" && tag != "") {
@@ -1542,6 +1548,12 @@ if (link != "" && tag != "") {
   pages_by_tag[ix] = new Page("News", "News Item", "2016-11-25", "Top 0.1% Holds Same Amount of Wealth as Bottom 90%", "", "news/top-0.1-holds-same-amount-of-wealth-as-bottom-90.html", "equality", "equality");
 }
 ix++;
+link = "quotes/capitalism-as-a-market-society.html";
+tag = "equality";
+if (link != "" && tag != "") {
+  pages_by_tag[ix] = new Page("Quotes", "Quotation", "2018-12-28 11:18:17", "Capitalism as a Market Society", "Yanis Varoufakis", "quotes/capitalism-as-a-market-society.html", "critical thinking, equality, society, systems thinking", "equality");
+}
+ix++;
 link = "quotes/public-morality.html";
 tag = "equality";
 if (link != "" && tag != "") {
@@ -1858,6 +1870,12 @@ link = "quotes/ignorant-and-free.html";
 tag = "governance";
 if (link != "" && tag != "") {
   pages_by_tag[ix] = new Page("Quotes", "Quotation", "2015-12-01 05:36:20", "Ignorant and Free", "Thomas Jefferson", "quotes/ignorant-and-free.html", "education, governance, liberty, written word", "governance");
+}
+ix++;
+link = "quotes/stakeholder-capitalism.html";
+tag = "governance";
+if (link != "" && tag != "") {
+  pages_by_tag[ix] = new Page("Quotes", "Quotation", "2012-09-03 11:43:18", "Stakeholder Capitalism", "Frank W. Abrams", "quotes/stakeholder-capitalism.html", "governance", "governance");
 }
 ix++;
 link = "quotes/liberalism-is-not-socialism.html";
@@ -3294,6 +3312,18 @@ if (link != "" && tag != "") {
   pages_by_tag[ix] = new Page("News", "News Item", "2015-12-08", "How ISIS Makes Radicals", "", "news/how-isis-makes-radicals.html", "imperfection, individuals, society", "society");
 }
 ix++;
+link = "quotes/the-economy-is-too-important-to-leave-to-the-economists.html";
+tag = "society";
+if (link != "" && tag != "") {
+  pages_by_tag[ix] = new Page("Quotes", "Quotation", "2018-12-28 12:05:34", "The economy is too important to leave to the economists", "Yanis Varoufakis", "quotes/the-economy-is-too-important-to-leave-to-the-economists.html", "society", "society");
+}
+ix++;
+link = "quotes/capitalism-as-a-market-society.html";
+tag = "society";
+if (link != "" && tag != "") {
+  pages_by_tag[ix] = new Page("Quotes", "Quotation", "2018-12-28 11:18:17", "Capitalism as a Market Society", "Yanis Varoufakis", "quotes/capitalism-as-a-market-society.html", "critical thinking, equality, society, systems thinking", "society");
+}
+ix++;
 link = "quotes/the-welfare-of-the-whole-human-race.html";
 tag = "society";
 if (link != "" && tag != "") {
@@ -3666,6 +3696,12 @@ if (link != "" && tag != "") {
   pages_by_tag[ix] = new Page("Quotes", "Quotation", "2006-11-30 14:29:32", "Learning from Experience", "Peter Senge", "quotes/learning-from-experience.html", "critical thinking, education, systemic", "systemic");
 }
 ix++;
+link = "quotes/capitalism-as-a-market-society.html";
+tag = "systems thinking";
+if (link != "" && tag != "") {
+  pages_by_tag[ix] = new Page("Quotes", "Quotation", "2018-12-28 11:18:17", "Capitalism as a Market Society", "Yanis Varoufakis", "quotes/capitalism-as-a-market-society.html", "critical thinking, equality, society, systems thinking", "systems thinking");
+}
+ix++;
 link = "blog/hbowie/have-we-passed-the-point-of-maximum-useful-tech.html";
 tag = "tools";
 if (link != "" && tag != "") {
@@ -3880,6 +3916,18 @@ link = "blog/hbowie/religious-freedom.html";
 tag = "written word";
 if (link != "" && tag != "") {
   pages_by_tag[ix] = new Page("Blog", "Blog Post", "2012-08-04", "Religious Freedom", "Herb Bowie", "blog/hbowie/religious-freedom.html", "balance, critical thinking, love, religion, written word", "written word");
+}
+ix++;
+link = "quotes/television-mesmerizes-people.html";
+tag = "written word";
+if (link != "" && tag != "") {
+  pages_by_tag[ix] = new Page("Quotes", "Quotation", "2018-12-14 12:55:59", "Television mesmerizes people", "Eric Braverman", "quotes/television-mesmerizes-people.html", "written word", "written word");
+}
+ix++;
+link = "quotes/amusing-ourselves-to-death.html";
+tag = "written word";
+if (link != "" && tag != "") {
+  pages_by_tag[ix] = new Page("Quotes", "Quotation", "2018-12-14 12:48:16", "Amusing ourselves to death", "Neil Postman", "quotes/amusing-ourselves-to-death.html", "written word", "written word");
 }
 ix++;
 link = "quotes/when-i-get-a-little-money-i-buy-books.html";
