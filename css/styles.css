@@ -8,7 +8,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'concourse_t4regular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: #687C99;
+  color: #3070AA;
 }
 
 h1 { font-size: 1.8em; margin-top: 0.3em; margin-bottom: 0.2em; }
@@ -17,6 +17,10 @@ h3 { font-size: 1.3em; }
 h4 { font-size: 1.2em; }
 h5 { font-size: 1.1em; margin-top: 16px; line-height: 120%; }
 h6 { font-size: 1.0em; }
+
+.practopians {font-size: 1.8em; 
+	font-family: 'concourse_t6regular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #3070AA}
 
 .sand { color: #F8BA51; }
 
@@ -30,7 +34,7 @@ hr
 	margin-top: 20px;
 	margin-bottom: 20px;
 	height: 0;
-	border-top: 1px #98A6C2 dotted;
+	border-top: 1px #3070AA dotted;
 	border-right: 0;
 	border-bottom: 0;
 	border-left: 0;
@@ -65,7 +69,7 @@ hr.bottom {
 	margin-top: 20px;
 	margin-bottom: 20px;
 	height: 0;
-	border-top: 1px #98A6C2 solid;
+	border-top: 1px #3070AA solid;
 	border-right: 0;
 	border-bottom: 0;
 	border-left: 0;
@@ -75,10 +79,10 @@ hr.bottom:after {
 	background: none;
 }
 
-a:link 		{ color: #687C99; text-decoration: none; }
-a:visited { color: #687C99; text-decoration: none; }
+a:link 		{ color: #3070AA; text-decoration: none; }
+a:visited { color: #3070AA; text-decoration: none; }
 a:hover   { color: #576880; text-decoration: none; }
-a:active 	{ color: #687C99; text-decoration: none; }
+a:active 	{ color: #3070AA; text-decoration: none; }
 
 a.reflink:link
 {
@@ -118,7 +122,7 @@ blockquote footer {
   margin-bottom: 10px;
   margin-left: 50px;
   padding-left: 15px;
-  border-left: 3px solid #98A6C2;
+  border-left: 3px solid #3070AA;
 } */
 
 /* Lists */
@@ -144,7 +148,7 @@ table.table-dense th {
 	font-family: 'concourse_t4regular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-table.shaded { background-color: #687C99; margin-top: 1em; }
+table.shaded { background-color: #3070AA; margin-top: 1em; }
 
 th.shaded
 {

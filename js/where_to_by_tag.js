@@ -984,6 +984,12 @@ if (link != "" && tag != "") {
   pages_by_tag[ix] = new Page("Quotes", "Quotation", "2017-11-06 12:02:36", "The brightest goat in the herd", "Yuval Noah Harari", "quotes/the-brightest-goat-in-the-herd.html", "cultural evolution", "cultural evolution");
 }
 ix++;
+link = "quotes/fear-of-missing-out.html";
+tag = "cultural evolution";
+if (link != "" && tag != "") {
+  pages_by_tag[ix] = new Page("Quotes", "Quotation", "2017-11-06 12:00:55", "Fear of Missing Out", "Yuval Noah Harari", "quotes/fear-of-missing-out.html", "cultural evolution", "cultural evolution");
+}
+ix++;
 link = "quotes/the-system-has-been-shaping-and-reshaping-our-minds.html";
 tag = "cultural evolution";
 if (link != "" && tag != "") {
@@ -1024,6 +1030,12 @@ link = "quotes/the-awesome-power-of-culture.html";
 tag = "cultural evolution";
 if (link != "" && tag != "") {
   pages_by_tag[ix] = new Page("Quotes", "Quotation", "2016-12-28 08:17:44", "The Awesome Power of Culture", "Yuval Noah Harari", "quotes/the-awesome-power-of-culture.html", "cultural evolution", "cultural evolution");
+}
+ix++;
+link = "quotes/why-study-history.html";
+tag = "cultural evolution";
+if (link != "" && tag != "") {
+  pages_by_tag[ix] = new Page("Quotes", "Quotation", "2016-12-04 10:38:38", "Why study history?", "Yuval Noah Harari", "quotes/why-study-history.html", "cultural evolution", "cultural evolution");
 }
 ix++;
 link = "quotes/cultures-as-a-kind-of-mental-infection.html";
@@ -1222,6 +1234,18 @@ link = "quotes/the-discomfort-of-thought.html";
 tag = "cultural evolution";
 if (link != "" && tag != "") {
   pages_by_tag[ix] = new Page("Quotes", "Quotation", "2006-11-30 14:29:31", "The Discomfort of Thought", "John F. Kennedy", "quotes/the-discomfort-of-thought.html", "critical thinking, cultural evolution", "cultural evolution");
+}
+ix++;
+link = "blog/hbowie/what-we-can-learn-from-the-government-shutdown.html";
+tag = "democracy";
+if (link != "" && tag != "") {
+  pages_by_tag[ix] = new Page("Blog", "Blog Post", "2019-01-21", "What We Can Learn from the Government Shutdown", "Herb Bowie", "blog/hbowie/what-we-can-learn-from-the-government-shutdown.html", "democracy, society, value creation", "democracy");
+}
+ix++;
+link = "blog/hbowie/the-truth-about-capitalism.html";
+tag = "democracy";
+if (link != "" && tag != "") {
+  pages_by_tag[ix] = new Page("Blog", "Blog Post", "2019-01-07", "The Truth About Capitalism", "Herb Bowie", "blog/hbowie/the-truth-about-capitalism.html", "democracy, equality, society, value creation", "democracy");
 }
 ix++;
 link = "blog/hbowie/us-political-observations-for-october-2018.html";
@@ -1528,6 +1552,12 @@ link = "quotes/quality-of-children-vs.-quantity.html";
 tag = "education";
 if (link != "" && tag != "") {
   pages_by_tag[ix] = new Page("Quotes", "Quotation", "2006-11-30 14:29:31", "Quality of Children vs. Quantity", "Margaret Mead", "quotes/quality-of-children-vs.-quantity.html", "education, parenthood, sustainability", "education");
+}
+ix++;
+link = "blog/hbowie/the-truth-about-capitalism.html";
+tag = "equality";
+if (link != "" && tag != "") {
+  pages_by_tag[ix] = new Page("Blog", "Blog Post", "2019-01-07", "The Truth About Capitalism", "Herb Bowie", "blog/hbowie/the-truth-about-capitalism.html", "democracy, equality, society, value creation", "equality");
 }
 ix++;
 link = "links/inequality.org.html";
@@ -1852,6 +1882,12 @@ link = "quotes/the-world-empire-enforces-world-peace.html";
 tag = "governance";
 if (link != "" && tag != "") {
   pages_by_tag[ix] = new Page("Quotes", "Quotation", "2017-01-13 11:51:50", "The World Empire enforces World Peace", "Yuval Noah Harari", "quotes/the-world-empire-enforces-world-peace.html", "governance, systemic", "governance");
+}
+ix++;
+link = "quotes/trust-in-the-future.html";
+tag = "governance";
+if (link != "" && tag != "") {
+  pages_by_tag[ix] = new Page("Quotes", "Quotation", "2016-12-28 12:01:59", "Trust in the Future", "Yuval Noah Harari", "quotes/trust-in-the-future.html", "governance", "governance");
 }
 ix++;
 link = "quotes/a-completely-free-market.html";
@@ -2182,6 +2218,12 @@ link = "news/how-isis-makes-radicals.html";
 tag = "individuals";
 if (link != "" && tag != "") {
   pages_by_tag[ix] = new Page("News", "News Item", "2015-12-08", "How ISIS Makes Radicals", "", "news/how-isis-makes-radicals.html", "imperfection, individuals, society", "individuals");
+}
+ix++;
+link = "quotes/all-of-us-are-trim-tabs.html";
+tag = "individuals";
+if (link != "" && tag != "") {
+  pages_by_tag[ix] = new Page("Quotes", "Quotation", "2019-01-07 09:07:37", "All of us are trim tabs", "Jeff Bridges", "quotes/all-of-us-are-trim-tabs.html", "individuals", "individuals");
 }
 ix++;
 link = "quotes/history-is-not-some-self-driving-car.html";
@@ -2772,6 +2814,12 @@ if (link != "" && tag != "") {
   pages_by_tag[ix] = new Page("Quotes", "Quotation", "2017-03-16 14:13:41", "When old men plant trees", "anonymous", "quotes/when-old-men-plant-trees.html", "mission", "mission");
 }
 ix++;
+link = "quotes/a-world-that-is-tolerable.html";
+tag = "mission";
+if (link != "" && tag != "") {
+  pages_by_tag[ix] = new Page("Quotes", "Quotation", "2017-02-26 12:38:51", "A world that is tolerable", "Walter Mosley", "quotes/a-world-that-is-tolerable.html", "mission", "mission");
+}
+ix++;
 link = "quotes/a-meaningful-life.html";
 tag = "mission";
 if (link != "" && tag != "") {
@@ -2884,6 +2932,12 @@ link = "blog/hbowie/our-american-identity-where-to-next.html";
 tag = "progress";
 if (link != "" && tag != "") {
   pages_by_tag[ix] = new Page("Blog", "Blog Post", "2017-07-13", "Our American Identity: Where To Next?", "Herb Bowie", "blog/hbowie/our-american-identity-where-to-next.html", "liberty, progress", "progress");
+}
+ix++;
+link = "quotes/walter-reuther-and-the-ford-robots.html";
+tag = "progress";
+if (link != "" && tag != "") {
+  pages_by_tag[ix] = new Page("Quotes", "Quotation", "2018-06-21 11:01:46", "Walter Reuther and the Ford Robots", "Walter Reuther", "quotes/walter-reuther-and-the-ford-robots.html", "progress", "progress");
 }
 ix++;
 link = "quotes/you-are-going-to-have-to-make-it-different.html";
@@ -3198,6 +3252,12 @@ if (link != "" && tag != "") {
   pages_by_tag[ix] = new Page("News", "News Item", "2015-11-21", "What Science Is -- and How and Why It Works", "", "news/what-science-is-and-how-and-why-it-works.html", "science", "science");
 }
 ix++;
+link = "quotes/the-exercise-of-the-intellect.html";
+tag = "science";
+if (link != "" && tag != "") {
+  pages_by_tag[ix] = new Page("Quotes", "Quotation", "2019-01-03 08:24:58", "The exercise of the intellect", "Alexis de Tocqueville", "quotes/the-exercise-of-the-intellect.html", "science", "science");
+}
+ix++;
 link = "quotes/discoveries-and-inventions.html";
 tag = "science";
 if (link != "" && tag != "") {
@@ -3268,6 +3328,18 @@ link = "appreciation/the-village-green-preservation-society.html";
 tag = "society";
 if (link != "" && tag != "") {
   pages_by_tag[ix] = new Page("Appreciation", "Appreciation", "2018-09-21", "The Village Green Preservation Society", "Herb Bowie", "appreciation/the-village-green-preservation-society.html", "humanism, society", "society");
+}
+ix++;
+link = "blog/hbowie/what-we-can-learn-from-the-government-shutdown.html";
+tag = "society";
+if (link != "" && tag != "") {
+  pages_by_tag[ix] = new Page("Blog", "Blog Post", "2019-01-21", "What We Can Learn from the Government Shutdown", "Herb Bowie", "blog/hbowie/what-we-can-learn-from-the-government-shutdown.html", "democracy, society, value creation", "society");
+}
+ix++;
+link = "blog/hbowie/the-truth-about-capitalism.html";
+tag = "society";
+if (link != "" && tag != "") {
+  pages_by_tag[ix] = new Page("Blog", "Blog Post", "2019-01-07", "The Truth About Capitalism", "Herb Bowie", "blog/hbowie/the-truth-about-capitalism.html", "democracy, equality, society, value creation", "society");
 }
 ix++;
 link = "blog/hbowie/have-we-passed-the-point-of-maximum-useful-tech.html";
@@ -3720,6 +3792,18 @@ if (link != "" && tag != "") {
   pages_by_tag[ix] = new Page("Basics", "Basic Info", "2018-07-24", "Value Creation", "Herb Bowie", "basics/value-creation.html", "value creation", "value creation");
 }
 ix++;
+link = "blog/hbowie/what-we-can-learn-from-the-government-shutdown.html";
+tag = "value creation";
+if (link != "" && tag != "") {
+  pages_by_tag[ix] = new Page("Blog", "Blog Post", "2019-01-21", "What We Can Learn from the Government Shutdown", "Herb Bowie", "blog/hbowie/what-we-can-learn-from-the-government-shutdown.html", "democracy, society, value creation", "value creation");
+}
+ix++;
+link = "blog/hbowie/the-truth-about-capitalism.html";
+tag = "value creation";
+if (link != "" && tag != "") {
+  pages_by_tag[ix] = new Page("Blog", "Blog Post", "2019-01-07", "The Truth About Capitalism", "Herb Bowie", "blog/hbowie/the-truth-about-capitalism.html", "democracy, equality, society, value creation", "value creation");
+}
+ix++;
 link = "blog/hbowie/a-traditional-remedy-for-the-facebook-problem-competition.html";
 tag = "value creation";
 if (link != "" && tag != "") {
@@ -3826,6 +3910,12 @@ link = "quotes/bathing-in-mystery-and-confusion.html";
 tag = "wonder";
 if (link != "" && tag != "") {
   pages_by_tag[ix] = new Page("Quotes", "Quotation", "2018-04-09 16:46:51", "Bathing in mystery and confusion", "Carl Sagan", "quotes/bathing-in-mystery-and-confusion.html", "wonder", "wonder");
+}
+ix++;
+link = "quotes/wonderment-is-the-first-passion-of-all.html";
+tag = "wonder";
+if (link != "" && tag != "") {
+  pages_by_tag[ix] = new Page("Quotes", "Quotation", "2017-12-05 09:18:13", "Wonderment is the first passion of all", "René Descartes", "quotes/wonderment-is-the-first-passion-of-all.html", "wonder", "wonder");
 }
 ix++;
 link = "quotes/the-wonder-remains.html";

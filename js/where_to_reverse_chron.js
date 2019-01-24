@@ -1,5 +1,35 @@
 
 ix = 0;
+link = "blog/hbowie/what-we-can-learn-from-the-government-shutdown.html";
+if (link != "") {
+  pages_by_descending_date[ix] = new Page("Blog", "Blog Post", "2019-01-21", "What We Can Learn from the Government Shutdown", "Herb Bowie", "blog/hbowie/what-we-can-learn-from-the-government-shutdown.html", "democracy, society, value creation", "");
+}
+ix++;
+link = "perspective/vol-1-issue-22-have-we-passed-the-point-of-maximum-useful-tech.html";
+if (link != "") {
+  pages_by_descending_date[ix] = new Page("Perspective", "Perspective", "2019-01-15", "Vol 1 Issue 22 - Have We Passed The Point of Maximum Useful Tech?", "", "perspective/vol-1-issue-22-have-we-passed-the-point-of-maximum-useful-tech.html", "", "");
+}
+ix++;
+link = "perspective/vol-1-issue-21-the-value-of-individuals.html";
+if (link != "") {
+  pages_by_descending_date[ix] = new Page("Perspective", "Perspective", "2019-01-08", "Vol 1 Issue 21 - The Value of Individuals", "", "perspective/vol-1-issue-21-the-value-of-individuals.html", "", "");
+}
+ix++;
+link = "quotes/all-of-us-are-trim-tabs.html";
+if (link != "") {
+  pages_by_descending_date[ix] = new Page("Quotes", "Quotation", "2019-01-07 09:07:37", "All of us are trim tabs", "Jeff Bridges", "quotes/all-of-us-are-trim-tabs.html", "individuals", "");
+}
+ix++;
+link = "blog/hbowie/the-truth-about-capitalism.html";
+if (link != "") {
+  pages_by_descending_date[ix] = new Page("Blog", "Blog Post", "2019-01-07", "The Truth About Capitalism", "Herb Bowie", "blog/hbowie/the-truth-about-capitalism.html", "democracy, equality, society, value creation", "");
+}
+ix++;
+link = "quotes/the-exercise-of-the-intellect.html";
+if (link != "") {
+  pages_by_descending_date[ix] = new Page("Quotes", "Quotation", "2019-01-03 08:24:58", "The exercise of the intellect", "Alexis de Tocqueville", "quotes/the-exercise-of-the-intellect.html", "science", "");
+}
+ix++;
 link = "quotes/the-economy-is-too-important-to-leave-to-the-economists.html";
 if (link != "") {
   pages_by_descending_date[ix] = new Page("Quotes", "Quotation", "2018-12-28 12:05:34", "The economy is too important to leave to the economists", "Yanis Varoufakis", "quotes/the-economy-is-too-important-to-leave-to-the-economists.html", "society", "");
@@ -520,6 +550,11 @@ if (link != "") {
   pages_by_descending_date[ix] = new Page("Quotes", "Quotation", "2018-06-21 11:09:05", "All must be held valuable, or none", "Edmund Crispin", "quotes/all-must-be-held-valuable-or-none.html", "equality, humanism", "");
 }
 ix++;
+link = "quotes/walter-reuther-and-the-ford-robots.html";
+if (link != "") {
+  pages_by_descending_date[ix] = new Page("Quotes", "Quotation", "2018-06-21 11:01:46", "Walter Reuther and the Ford Robots", "Walter Reuther", "quotes/walter-reuther-and-the-ford-robots.html", "progress", "");
+}
+ix++;
 link = "links/the-long-now-foundation.html";
 if (link != "") {
   pages_by_descending_date[ix] = new Page("Links", "Link", "2018-06-16", "The Long Now Foundation", "", "links/the-long-now-foundation.html", "sustainability", "");
@@ -725,6 +760,11 @@ if (link != "") {
   pages_by_descending_date[ix] = new Page("Quotes", "Quotation", "2018-01-16 07:50:36", "You have your position because of the events of history", "Martin Luther King Jr.", "quotes/you-have-your-position-because-of-the-events-of-history.html", "connection, cultural evolution", "");
 }
 ix++;
+link = "quotes/wonderment-is-the-first-passion-of-all.html";
+if (link != "") {
+  pages_by_descending_date[ix] = new Page("Quotes", "Quotation", "2017-12-05 09:18:13", "Wonderment is the first passion of all", "René Descartes", "quotes/wonderment-is-the-first-passion-of-all.html", "wonder", "");
+}
+ix++;
 link = "quotes/books-are-key-to-understanding-the-world.html";
 if (link != "") {
   pages_by_descending_date[ix] = new Page("Quotes", "Quotation", "2017-12-05 09:12:14", "Books are key to understanding the world", "Carl Sagan", "quotes/books-are-key-to-understanding-the-world.html", "written word", "");
@@ -738,6 +778,11 @@ ix++;
 link = "quotes/the-brightest-goat-in-the-herd.html";
 if (link != "") {
   pages_by_descending_date[ix] = new Page("Quotes", "Quotation", "2017-11-06 12:02:36", "The brightest goat in the herd", "Yuval Noah Harari", "quotes/the-brightest-goat-in-the-herd.html", "cultural evolution", "");
+}
+ix++;
+link = "quotes/fear-of-missing-out.html";
+if (link != "") {
+  pages_by_descending_date[ix] = new Page("Quotes", "Quotation", "2017-11-06 12:00:55", "Fear of Missing Out", "Yuval Noah Harari", "quotes/fear-of-missing-out.html", "cultural evolution", "");
 }
 ix++;
 link = "quotes/the-system-has-been-shaping-and-reshaping-our-minds.html";
@@ -905,6 +950,11 @@ if (link != "") {
   pages_by_descending_date[ix] = new Page("Quotes", "Quotation", "2017-02-26 13:01:51", "This faith in consciousness", "Walter Mosley", "quotes/this-faith-in-consciousness.html", "critical thinking", "");
 }
 ix++;
+link = "quotes/a-world-that-is-tolerable.html";
+if (link != "") {
+  pages_by_descending_date[ix] = new Page("Quotes", "Quotation", "2017-02-26 12:38:51", "A world that is tolerable", "Walter Mosley", "quotes/a-world-that-is-tolerable.html", "mission", "");
+}
+ix++;
 link = "quotes/accidents-of-birth.html";
 if (link != "") {
   pages_by_descending_date[ix] = new Page("Quotes", "Quotation", "2017-02-21 11:18:01", "Accidents of birth", "Anu Partanen", "quotes/accidents-of-birth.html", "equality", "");
@@ -1010,6 +1060,11 @@ if (link != "") {
   pages_by_descending_date[ix] = new Page("Blog", "Blog Post", "2016-12-29", "Another Way to Think about the US Elections", "Herb Bowie", "blog/hbowie/another-way-to-think-about-the-us-elections.html", "cultural evolution, integral", "");
 }
 ix++;
+link = "quotes/trust-in-the-future.html";
+if (link != "") {
+  pages_by_descending_date[ix] = new Page("Quotes", "Quotation", "2016-12-28 12:01:59", "Trust in the Future", "Yuval Noah Harari", "quotes/trust-in-the-future.html", "governance", "");
+}
+ix++;
 link = "quotes/a-completely-free-market.html";
 if (link != "") {
   pages_by_descending_date[ix] = new Page("Quotes", "Quotation", "2016-12-28 12:00:21", "A Completely Free Market", "Yuval Noah Harari", "quotes/a-completely-free-market.html", "balance, governance", "");
@@ -1038,6 +1093,11 @@ ix++;
 link = "core/pledge.html";
 if (link != "") {
   pages_by_descending_date[ix] = new Page("Core", "Core Writing", "2016-12-05", "Pledge", "", "core/pledge.html", "", "");
+}
+ix++;
+link = "quotes/why-study-history.html";
+if (link != "") {
+  pages_by_descending_date[ix] = new Page("Quotes", "Quotation", "2016-12-04 10:38:38", "Why study history?", "Yuval Noah Harari", "quotes/why-study-history.html", "cultural evolution", "");
 }
 ix++;
 link = "quotes/cultures-as-a-kind-of-mental-infection.html";

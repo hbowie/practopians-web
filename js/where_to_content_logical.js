@@ -100,6 +100,16 @@ if (title != "") {
   content_logical[ix] = new Page("Blog", "Blog Post", "", "Index by Title", "", "blog/index-by-title.html", "", "");
 }
 ix++;
+title = "What We Can Learn from the Government Shutdown"
+if (title != "") {
+  content_logical[ix] = new Page("Blog", "Blog Post", "2019-01-21", "What We Can Learn from the Government Shutdown", "", "blog/hbowie/what-we-can-learn-from-the-government-shutdown.html", "democracy, society, value creation", "");
+}
+ix++;
+title = "The Truth About Capitalism"
+if (title != "") {
+  content_logical[ix] = new Page("Blog", "Blog Post", "2019-01-07", "The Truth About Capitalism", "", "blog/hbowie/the-truth-about-capitalism.html", "democracy, equality, society, value creation", "");
+}
+ix++;
 title = "Have We Passed The Point of Maximum Useful Tech?"
 if (title != "") {
   content_logical[ix] = new Page("Blog", "Blog Post", "2018-12-17", "Have We Passed The Point of Maximum Useful Tech?", "", "blog/hbowie/have-we-passed-the-point-of-maximum-useful-tech.html", "critical thinking, cultural evolution, society, tools", "");
